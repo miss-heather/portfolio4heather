@@ -1,0 +1,35 @@
+@keyframes swirl {
+    0% {
+      transform: rotate(80deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .swirl {
+    position: absolute;
+    top: absolute;
+    left: 50%;
+    width: 25px;
+    height: 100px;
+    background-color: rgb(145, 3, 3);
+    border-radius: 50%;
+    animation: swirl 10s linear infinite;
+  }
+  
+
+   /* animations.css */
+
+.red-dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.973);
+  color: white;
+  font-family: Arial, sans-serif;
+}

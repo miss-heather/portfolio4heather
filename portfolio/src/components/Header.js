@@ -101,12 +101,31 @@
 // export default Header;
 import React, { useState } from 'react';
 import NavigationBar from './NavigationBar';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
+import '../css/animations.css';
 
 function Header() {
   const [activeSection, setActiveSection] = useState('about');
-
   const handleNavigation = (section) => {
     setActiveSection(section);
+  };
+
+  const renderSection = () => {
+    switch (activeSection) {
+      case 'about':
+        return <AboutMe />;
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return null;
+    }
   };
 
   return (
@@ -116,15 +135,8 @@ function Header() {
         <NavigationBar activeSection={activeSection} handleNavigation={handleNavigation} />
       </header>
       <div className="content">
-        {/* Existing code */}
-        <div className="profile">
-          <img src="/path/to/your/image.jpg" alt="Your Name" />
-          <p>
-            Your short bio goes here. Write a few sentences or paragraphs to introduce yourself,
-            your background, skills, and any other relevant information you'd like to share.
-          </p>
-        </div>
-        {/* End of existing code */}
+        <div className="swirl" /> {/* Add the swirling animation element here */}
+        {renderSection()}
       </div>
     </div>
   );
