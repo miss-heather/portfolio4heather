@@ -3,6 +3,12 @@
     justify-content: space-between;
     align-items: center;
   }
+
+.header h1 {
+    font-family: 'Tangerine bold', cursive;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px black;
+}  
   
   .nav-container {
     display: flex;

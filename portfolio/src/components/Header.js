@@ -131,7 +131,7 @@ function Header() {
   return (
     <div>
       <header className="header">
-        <h1>Your Name</h1>
+        <h1 style={{fontFamily: 'Tangerine Bold' }}>Heather Hawkes</h1>
         <div className="nav-container">
           <div className="header-links">
             <a href="#about" onClick={() => handleNavigation('about')} className={activeSection === 'about' ? 'active' : ''}>
