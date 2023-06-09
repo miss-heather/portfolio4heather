@@ -132,7 +132,7 @@ function Header() {
     <div>
       <header>
         <h1>Your Name</h1>
-        <NavigationBar activeSection={activeSection} handleNavigation={handleNavigation} />
+        <NavigationBar activeSection={activeSection} handleNavigation={handleNavigation} linkClassName="white-link" />
       </header>
       <div className="content">
         <div className="swirl" /> {/* Add the swirling animation element here */}

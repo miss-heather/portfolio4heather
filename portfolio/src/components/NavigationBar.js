@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NavigationBar({ activeSection, handleNavigation }) {
+function NavigationBar({ activeSection, handleNavigation, linkClassName }) {
   return (
     <nav>
       <ul>
@@ -9,7 +9,7 @@ function NavigationBar({ activeSection, handleNavigation }) {
           <Link
             to="/about"
             onClick={() => handleNavigation('about')}
-            className={activeSection === 'about' ? 'active' : ''}
+            className={`${activeSection === 'about' ? 'active' : ''} ${linkClassName}`} // Add the class here
           >
             About Me
           </Link>
@@ -18,7 +18,7 @@ function NavigationBar({ activeSection, handleNavigation }) {
           <Link
             to="/portfolio"
             onClick={() => handleNavigation('portfolio')}
-            className={activeSection === 'portfolio' ? 'active' : ''}
+            className={`${activeSection === 'portfolio' ? 'active' : ''} ${linkClassName}`} // Add the class here
           >
             Portfolio
           </Link>
@@ -27,7 +27,7 @@ function NavigationBar({ activeSection, handleNavigation }) {
           <Link
             to="/contact"
             onClick={() => handleNavigation('contact')}
-            className={activeSection === 'contact' ? 'active' : ''}
+            className={`${activeSection === 'contact' ? 'active' : ''} ${linkClassName}`} // Add the class here
           >
             Contact
           </Link>
@@ -36,7 +36,7 @@ function NavigationBar({ activeSection, handleNavigation }) {
           <Link
             to="/resume"
             onClick={() => handleNavigation('resume')}
-            className={activeSection === 'resume' ? 'active' : ''}
+            className={`${activeSection === 'resume' ? 'active' : ''} ${linkClassName}`} // Add the class here
           >
             Resume
           </Link>
