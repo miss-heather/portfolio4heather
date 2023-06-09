@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/style.css'; // Import the new contact.css file
 
 function Contact() {
   const [name, setName] = useState('');
@@ -21,7 +22,7 @@ function Contact() {
   };
 
   const validateEmail = (email) => {
-    // Regular expression for email validation
+    // Regex for email validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
   };
@@ -39,7 +40,6 @@ function Contact() {
       return;
     }
 
-    // Process the form data or send it to an API
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Message:', message);
@@ -66,7 +66,7 @@ function Contact() {
     <div>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="form-field">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -78,7 +78,7 @@ function Contact() {
           />
           {showValidation && !name && <span className="validation-error">Name is required</span>}
         </div>
-        <div>
+        <div className="form-field">
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -93,7 +93,7 @@ function Contact() {
           )}
           {emailError && <span className="validation-error">{emailError}</span>}
         </div>
-        <div>
+        <div className="form-field">
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
