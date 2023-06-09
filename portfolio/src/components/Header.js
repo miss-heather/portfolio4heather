@@ -100,12 +100,12 @@
 
 // export default Header;
 import React, { useState } from 'react';
-import NavigationBar from './NavigationBar';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
 import '../css/animations.css';
+import '../css/header.css';
 
 function Header() {
   const [activeSection, setActiveSection] = useState('about');
@@ -130,9 +130,24 @@ function Header() {
 
   return (
     <div>
-      <header>
+      <header className="header">
         <h1>Your Name</h1>
-        <NavigationBar activeSection={activeSection} handleNavigation={handleNavigation} linkClassName="white-link" />
+        <div className="nav-container">
+          <div className="header-links">
+            <a href="#about" onClick={() => handleNavigation('about')} className={activeSection === 'about' ? 'active' : ''}>
+              About Me
+            </a>
+            <a href="#portfolio" onClick={() => handleNavigation('portfolio')} className={activeSection === 'portfolio' ? 'active' : ''}>
+              Portfolio
+            </a>
+            <a href="#contact" onClick={() => handleNavigation('contact')} className={activeSection === 'contact' ? 'active' : ''}>
+              Contact
+            </a>
+            <a href="#resume" onClick={() => handleNavigation('resume')} className={activeSection === 'resume' ? 'active' : ''}>
+              Resume
+            </a>
+          </div>
+        </div>
       </header>
       <div className="content">
         <div className="swirl" /> {/* Add the swirling animation element here */}
@@ -143,3 +158,4 @@ function Header() {
 }
 
 export default Header;
+

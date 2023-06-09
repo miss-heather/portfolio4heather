@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .header-links a {
+    color: white;
+  }
+
+  .white-link {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+  }
+  /* Add any additional styling as needed */
+  
