@@ -6,10 +6,9 @@ function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <div>
-        <p>Download my resume:</p>
-        <a href="/path/to/your/resume.pdf" download>
-          Download Resume
+      <div class="white-link">
+        <a href="/assets/exampleresume.pdf" download style={{ color: 'white' }}>
+          Download Heather's Resume
         </a>
       </div>
       <div>

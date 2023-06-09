@@ -150,7 +150,7 @@ function Header() {
         </div>
       </header>
       <div className="content">
-        <div className="swirl" /> {/* Add the swirling animation element here */}
+        {/* <div className="swirl" />  */}
         {renderSection()}
       </div>
     </div>

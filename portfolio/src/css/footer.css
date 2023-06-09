@@ -8,6 +8,8 @@
   }
   
   .footer-links {
+    color: white;
+    text-shadow: 5px 5px 10px black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +18,7 @@
   .footer-link {
     margin: 0 10px;
     color: white;
+    text-shadow: 5px 5px 10px black;
   }
   
   .github-icon {

@@ -8,8 +8,7 @@ function AboutMe() {
       <div className="profile">
         <img src={kittyKisses} alt="Your Name" style={{ width: '150px', height: '150px' }}/>
         <p>
-          Your short bio goes here. Write a few sentences or paragraphs to introduce yourself,
-          your background, skills, and any other relevant information you'd like to share.
+          Short bio about Heather! And maybe one for her awesome kitty, Sir Kittimus Alfredo BartheloMeow, as well. 
         </p>
       </div>
     </div>
