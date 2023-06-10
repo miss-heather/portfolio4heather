@@ -4,23 +4,23 @@
 }
 
 .form-field {
-  margin-bottom: 20px; /* Add spacing between form fields */
+  margin-bottom: 20px; 
 }
 
 .form-field label {
-  display: block; /* Make labels block-level elements */
-  margin-bottom: 5px; /* Add spacing below labels */
+  display: block; 
+  margin-bottom: 5px; 
 }
 
 .form-field input,
 .form-field textarea {
-  width: 30%; /* Make the text boxes take up the full width of the parent container */
-  padding: 5px; /* Adjust the padding as needed */
+  width: 30%; 
+  padding: 5px; 
 }
 
 @media (max-width: 767px) {
   .form-field input,
   .form-field textarea {
-    width: calc(100% - 10px); /* Adjust the width to account for padding and margins */
+    width: calc(100% - 10px); 
   }
 }

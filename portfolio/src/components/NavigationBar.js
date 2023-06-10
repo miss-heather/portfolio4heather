@@ -9,7 +9,7 @@ function NavigationBar({ activeSection, handleNavigation, linkClassName }) {
           <Link
             to="/about"
             onClick={() => handleNavigation('about')}
-            className={`${activeSection === 'about' ? 'active' : ''} ${linkClassName}`} // Add the class here
+            className={`${activeSection === 'about' ? 'active' : ''} ${linkClassName}`}
           >
             About Me
           </Link>
@@ -18,7 +18,7 @@ function NavigationBar({ activeSection, handleNavigation, linkClassName }) {
           <Link
             to="/portfolio"
             onClick={() => handleNavigation('portfolio')}
-            className={`${activeSection === 'portfolio' ? 'active' : ''} ${linkClassName}`} // Add the class here
+            className={`${activeSection === 'portfolio' ? 'active' : ''} ${linkClassName}`}
           >
             Portfolio
           </Link>
@@ -27,7 +27,7 @@ function NavigationBar({ activeSection, handleNavigation, linkClassName }) {
           <Link
             to="/contact"
             onClick={() => handleNavigation('contact')}
-            className={`${activeSection === 'contact' ? 'active' : ''} ${linkClassName}`} // Add the class here
+            className={`${activeSection === 'contact' ? 'active' : ''} ${linkClassName}`} 
           >
             Contact
           </Link>
@@ -36,7 +36,7 @@ function NavigationBar({ activeSection, handleNavigation, linkClassName }) {
           <Link
             to="/resume"
             onClick={() => handleNavigation('resume')}
-            className={`${activeSection === 'resume' ? 'active' : ''} ${linkClassName}`} // Add the class here
+            className={`${activeSection === 'resume' ? 'active' : ''} ${linkClassName}`} 
           >
             Resume
           </Link>

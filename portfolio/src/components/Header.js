@@ -5,7 +5,7 @@ import Contact from './Contact';
 import Resume from './Resume';
 import '../css/animations.css';
 import '../css/header.css';
-import '../css/style.css'; // Import the new content.css file
+import '../css/style.css'; 
 
 function Header() {
   const [activeSection, setActiveSection] = useState('about');

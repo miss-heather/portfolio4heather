@@ -12,8 +12,8 @@ function Portfolio() {
           <a className="white-link" href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
             <img src="/path/to/project1.jpg" alt="Project 1" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/weatherdashboard" target="_blank" rel="noopener noreferrer">
+            Weather Dashboard GitHub Repository
           </a>
         </div>
 
@@ -48,8 +48,8 @@ function Portfolio() {
           <a className="white-link" href="https://example.com/project4" target="_blank" rel="noopener noreferrer">
             <img src="/path/to/project4.jpg" alt="Project 4" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project4" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/regextutorial" target="_blank" rel="noopener noreferrer">
+            Regex Tutorial GitHub Repository
           </a>
         </div>
 
@@ -60,8 +60,8 @@ function Portfolio() {
           <a className="white-link" href="https://example.com/project5" target="_blank" rel="noopener noreferrer">
             <img src="/path/to/project5.jpg" alt="Project 5" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project5" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/readmegenerator" target="_blank" rel="noopener noreferrer">
+            README Generator GitHub Repository
           </a>
         </div>
 
@@ -72,8 +72,8 @@ function Portfolio() {
           <a className="white-link" href="https://example.com/project6" target="_blank" rel="noopener noreferrer">
             <img src="/path/to/project6.jpg" alt="Project 6" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project6" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/teamprofilegeneratorhw" target="_blank" rel="noopener noreferrer">
+            Team Profile Generator GitHub Repository
           </a>
         </div>
       </div>

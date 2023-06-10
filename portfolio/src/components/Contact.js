@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/style.css'; // Import the new contact.css file
+import '../css/style.css'; 
 
 function Contact() {
   const [name, setName] = useState('');
@@ -22,7 +22,7 @@ function Contact() {
   };
 
   const validateEmail = (email) => {
-    // Regex for email validation
+
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
   };
@@ -44,7 +44,6 @@ function Contact() {
     console.log('Email:', email);
     console.log('Message:', message);
 
-    // Reset form fields
     setName('');
     setEmail('');
     setMessage('');
