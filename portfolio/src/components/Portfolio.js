@@ -17,33 +17,30 @@ function Portfolio() {
           </a>
         </div>
 
-        {/* Rest of the projects */}
         {/* Project 2 */}
         <div className="project">
           <h3>Project 2</h3>
           <p>Description of Project 2</p>
           <a className="white-link" href="https://example.com/project2" target="_blank" rel="noopener noreferrer">
-            <img src="/path/to/project2.jpg" alt="Project 2" />
+            <img src="/assets/wdsched.jpeg" alt="Project 2" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project2" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/workdayscheduler" target="_blank" rel="noopener noreferrer">
+            Workday Scheduler GitHub Repository
           </a>
         </div>
 
-        {/* Rest of the projects */}
         {/* Project 3 */}
         <div className="project">
           <h3>Project 3</h3>
           <p>Description of Project 3</p>
           <a className="white-link" href="https://example.com/project3" target="_blank" rel="noopener noreferrer">
-            <img src="/path/to/project3.jpg" alt="Project 3" />
+            <img src="/assets/smapi.png" alt="Project 3" />
           </a>
-          <a className="white-link" href="https://github.com/your-username/project3" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
+          <a className="white-link" href="https://github.com/miss-heather/socialnetworkapi" target="_blank" rel="noopener noreferrer">
+            Social Network API GitHub Repository
           </a>
         </div>
 
-        {/* Rest of the projects */}
         {/* Project 4 */}
         <div className="project">
           <h3>Project 4</h3>
@@ -56,7 +53,6 @@ function Portfolio() {
           </a>
         </div>
 
-        {/* Rest of the projects */}
         {/* Project 5 */}
         <div className="project">
           <h3>Project 5</h3>
@@ -69,7 +65,6 @@ function Portfolio() {
           </a>
         </div>
 
-        {/* Rest of the projects */}
         {/* Project 6 */}
         <div className="project">
           <h3>Project 6</h3>
